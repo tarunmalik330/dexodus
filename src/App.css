@@ -1,0 +1,54 @@
+/* =================================== FOCUS ON TRADING =================================== */
+.border-gradient {
+    background: linear-gradient(98.22deg, rgba(255, 255, 255, 0.12) 0%, rgba(204, 204, 204, 0) 12.83%);
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid;
+    position: relative
+}
+
+.border-gradient::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    border-radius: inherit;
+    padding: 1px !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #ffffff1a;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor !important;
+    pointer-events: none;
+    mask-composite: exclude;
+}
+
+
+/* ========================= TOP FEATURED ========================= */
+.featured-card {
+    background: linear-gradient(135.66deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 112.35%);
+    backdrop-filter: blur(20px) !important;
+}
+
+.featured-card::after {
+    content: "";
+    border-radius: inherit;
+    inset: 0 !important;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor !important;
+    mask-composite: exclude;
+}
+
+/* ================================  READY TO MAKE YOUR MARK  ================================ */
+.ready-border-box::before {
+    content: "";
+    inset: 0;
+    background: linear-gradient(180deg, #7B1F67 -15.63%, #D0215D 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
