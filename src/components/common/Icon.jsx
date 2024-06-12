@@ -1,5 +1,4 @@
 // ===============================  FOCUS ON TRADING  ===============================
-
 export const BtnArrow = (props) => {
   return (
     <svg className={`${props.className}`}
