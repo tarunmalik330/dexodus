@@ -105,7 +105,6 @@ export const Latency = () => {
 };
 
 // ================================= FEATURES =================================
-
 export const Leagues = () => {
   return (
     <svg
