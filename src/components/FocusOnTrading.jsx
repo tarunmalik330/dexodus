@@ -32,7 +32,7 @@ const FocusOnTrading = () => {
             {focusTradingCard.map((obj, id) => (
               <div
                 key={id}
-                className="border-gradient border border-solid border-transparent after:absolute after:p-[1px] after:w-full after:h-full after:inset-0 after:bg-lightblack after:pointer-events-none after:-z-[1] rounded-[10px] hover:after:bg-[#A020F0] after:!rounded-[7px] after:transition-all after:ease-linear after:duration-300 transition-all ease-linear duration-300"
+                className="border-gradient bg-bordergradient backdrop-blur-[20px] border border-solid border-transparent after:absolute after:p-[1px] after:w-full after:h-full after:inset-0 after:bg-lightblack after:pointer-events-none after:-z-[1] rounded-[10px] hover:after:bg-[#A020F0] after:!rounded-[7px] after:transition-all after:ease-linear after:duration-300 transition-all ease-linear duration-300"
               >
                 <div className="p-[18px]">
                   <p className="flex gap-4 font-medium leading-[140%] text-white items-center text-2xl mb-3">

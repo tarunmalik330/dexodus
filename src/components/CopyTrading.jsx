@@ -1,8 +1,8 @@
 import React from "react";
-import automatedmirror from "../assets/images/png/automated-mirror.png";
+import automatedmirror from "../assets/images/webp/automated-mirror.webp";
 import Heading from "./common/Heading";
 import CommonBtn from "./common/CommonBtn";
-import vector from "../assets/images/png/mirroe-vector.png";
+import vector from "../assets/images/webp/mirroe-vector.webp";
 
 const CopyTrading = () => {
   return (

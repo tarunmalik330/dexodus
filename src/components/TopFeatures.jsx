@@ -1,8 +1,8 @@
 import React from "react";
 import Heading from "./common/Heading";
 import { featuresCardList } from "./common/CommonHelper";
-import circle from "../assets/images/png/features-circle.png";
-import vector from "../assets/images/png/features-vector.png";
+import circle from "../assets/images/webp/features-circle.webp";
+import vector from "../assets/images/webp/features-vector.webp";
 
 const TopFeatures = () => {
   return (
@@ -30,7 +30,7 @@ const TopFeatures = () => {
         <div className="flex flex-row flex-wrap md:pt-[70px] sm:pt-[55px] pt-11 max-lg:justify-center max-lg:gap-6">
           {featuresCardList.map((obj, index) => (
             <div key={index} className="lg:w-4/12 md:6/12 flex justify-center">
-              <div className="featured-card rounded-[10px] relative xl:p-6 sm:p-5 p-4 border border-solid border-transparent after:-z-[1] after:absolute after:p-[1px] after:w-full after:h-full after:pointer-events-none after:bg-lightblack xl:max-w-[364px] md:max-w-[315px] w-full h-full hover:after:bg-pink after:ease-linear after:duration-300 after:transition-all after:inset-0">
+              <div className="featured-card bg-gradientfeatured rounded-[10px] relative xl:p-6 sm:p-5 p-4 border border-solid border-transparent after:-z-[1] after:absolute after:p-[1px] after:w-full after:h-full after:pointer-events-none after:bg-lightblack xl:max-w-[364px] md:max-w-[315px] w-full h-full hover:after:bg-pink after:ease-linear after:duration-300 after:transition-all after:inset-0">
                 <div className="md:pb-8 pb-6">{obj.svg}</div>
                 <p className="text-white capitalize xl:text-xsm text-2xl font-medium leading-[140%] mb-3">
                   {obj.tittle}

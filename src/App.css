@@ -1,9 +1,4 @@
 /* =================================== FOCUS ON TRADING =================================== */
-.border-gradient {
-    background: linear-gradient(98.22deg, rgba(255, 255, 255, 0.12) 0%, rgba(204, 204, 204, 0) 12.83%);
-    backdrop-filter: blur(20px) !important;
-}
-
 .border-gradient::after {
     content: "";
     border-radius: inherit;
@@ -17,7 +12,6 @@
 
 /* ========================= TOP FEATURED ========================= */
 .featured-card {
-    background: linear-gradient(135.66deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 112.35%);
     backdrop-filter: blur(20px) !important;
 }
 
