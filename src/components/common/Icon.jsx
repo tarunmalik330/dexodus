@@ -1,8 +1,8 @@
 // ===============================  FOCUS ON TRADING  ===============================
 
-export const BtnArrow = () => {
+export const BtnArrow = (props) => {
   return (
-    <svg
+    <svg className={`${props.className}`}
       width="23"
       height="24"
       viewBox="0 0 23 24"

@@ -2,25 +2,15 @@
 .border-gradient {
     background: linear-gradient(98.22deg, rgba(255, 255, 255, 0.12) 0%, rgba(204, 204, 204, 0) 12.83%);
     backdrop-filter: blur(20px) !important;
-    border: 1px solid;
-    position: relative
 }
 
 .border-gradient::after {
     content: "";
-    z-index: -1;
-    position: absolute;
     border-radius: inherit;
-    padding: 1px !important;
-    inset: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    background: #ffffff1a;
     -webkit-mask: linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor !important;
-    pointer-events: none;
     mask-composite: exclude;
 }
 
@@ -34,7 +24,6 @@
 .featured-card::after {
     content: "";
     border-radius: inherit;
-    inset: 0 !important;
     -webkit-mask: linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);

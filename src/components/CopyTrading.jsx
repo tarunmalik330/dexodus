@@ -2,11 +2,18 @@ import React from "react";
 import automatedmirror from "../assets/images/png/automated-mirror.png";
 import Heading from "./common/Heading";
 import CommonBtn from "./common/CommonBtn";
+import vector from "../assets/images/png/mirroe-vector.png";
 
 const CopyTrading = () => {
   return (
-    <div className="xl:pt-[140px] md:pt-[90px] sm:pt-[60px] pt-12">
-      <div className="container xl:max-w-[1164px] mx-auto xl:px-3 px-6">
+    <div className="xl:pt-[140px] md:pt-[90px] sm:pt-[60px] pt-12 relative">
+      <img
+        src={vector}
+        alt="vector"
+        className="w-full lg:max-w-[215px] max-w-[160px] absolute lg:top-0 top-[21%] right-0 md:block hidden"
+      />
+      <div className="w-[145px] h-[145px] bg-pink blur-[100px] animate-pulse absolute top-0 rounded-full"></div>
+      <div className="container xl:max-w-[1164px] mx-auto xl:px-3 px-6 relative z-10">
         <div className="flex flex-row flex-wrap items-center">
           <div className="lg:w-6/12 w-full lg:pb-0 sm:pb-12 pb-9 flex lg:justify-start justify-center">
             <img
