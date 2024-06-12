@@ -34,7 +34,6 @@
 /* ================================  READY TO MAKE YOUR MARK  ================================ */
 .ready-border-box::before {
     content: "";
-    inset: 0;
     background: linear-gradient(180deg, #7B1F67 -15.63%, #D0215D 100%);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
